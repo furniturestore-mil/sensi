@@ -1,0 +1,118 @@
+.wc_payment_method.payment_method_primepaggateway img,
+    img.primegap-pix-img{
+    width: 52px !important;
+    max-width: 52px !important;
+    background: #f2f2f2;
+    padding: 5px !important;
+    border-radius: 5px;
+    display: inline !important;
+    /* margin-bottom: 20px; */
+    vertical-align: middle !important;
+}
+
+.wc_payment_method.payment_method_pushinpaygateway img{
+    background: #000;
+    border-radius: 6px;
+    padding: 9px;
+    width: 100px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    max-width: 100px !important;
+}
+
+.primepag-pagamento-content.primepag-pagamento-pix{
+    text-align: center;
+    margin-top: 12px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    padding: 11px;
+}
+
+
+.primepag-pix-qrcode{
+        margin-bottom: 30px;
+}
+
+.primepag-pix-qrcode img{
+    background: #f2f2f2 !important;
+    display: block !important;
+    width: 200px !important;
+    height: 200px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    border-radius: 8px !important;
+}
+
+.primepag-pix-qrcode h2{
+    text-align: left;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    font-size: 14px;
+    background: #f2f2f2;
+    color: #000;
+    border-radius: 8px;
+    overflow-x: scroll;
+    padding: 12px;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+
+
+.primepag-pix-qrcode h2 span{
+    color: #000 !important;
+}
+
+
+.primepag-pix-qrcode h2 small{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+
+
+.primepag-pix-qrcode a.button-confirmar-primepag-pix,
+.primepag-pix-qrcode a.button-confirmar-primepag-pix:hover,
+.primepag-pix-qrcode a.button-confirmar-primepag-pix:active,
+.primepag-pix-qrcode a.button-confirmar-primepag-pix:focus,
+.primepag-pix-qrcode a.button-confirmar-primepag-pix:visited{
+    background: var(--cor-botao) !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    width: 200px;
+    color: var(--cor-botao-texto) !important;
+}
+
+
+.status-e-acoes-de-pagamento{
+    text-align: center;
+}
+
+.status-e-acoes-de-pagamento span{
+    display: none;
+    font-weight: bold;
+    font-size: 34px;
+    color: #000;
+}
+
+
+.primepag-pix-qrcode .status-e-acoes-de-pagamento a.button-confirmar-primepag-pix,
+.primepag-pix-qrcode .status-e-acoes-de-pagamento a.button-confirmar-primepag-pix:hover,
+.primepag-pix-qrcode .status-e-acoes-de-pagamento a.button-confirmar-primepag-pix:active,
+.primepag-pix-qrcode .status-e-acoes-de-pagamento a.button-confirmar-primepag-pix:focus,
+.primepag-pix-qrcode .status-e-acoes-de-pagamento a.button-confirmar-primepag-pix:visited{
+    background: #000 !important;
+    color: #fff !important;
+    font-size: 13px !important;
+    padding: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: fit-content;
+}
